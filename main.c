@@ -233,8 +233,6 @@ DaPrototype(int)
 
 // TODO: ~Hash Table
 
-// TODO: ~String View
-
 // TODO: ~Rope ?
 
 int main(void)
