@@ -1,8 +1,10 @@
 { pkgs ? import <nixpkgs> {} }:
 pkgs.mkShell {
-    nativeBuildInputs = with pkgs; [
-        gcc
+    buildInputs = with pkgs; [
         gdb
         gf
+        bear
+        clang-tools
+        clang
     ];
 }

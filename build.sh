@@ -2,5 +2,5 @@
 
 mkdir -p ./build
 
-gcc -E main.c > ./build/macro_expansion.c
-gcc -ggdb3 -Wextra -Wall -o ./build/main main.c
+clang -E main.c > ./build/macro_expansion.c
+clang -ggdb3 -Wextra -Wall -o ./build/main main.c
